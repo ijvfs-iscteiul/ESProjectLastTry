@@ -2,7 +2,7 @@ def dockeruser = "irinafernandes"
 def imagename = "projectgrupo4"
 def container = "project"
 node {
-   echo 'Building Apache Docker Image'
+   echo 'Building Group 4 Project Docker Image'
 
 stage('Git Checkout') {
     git 'https://github.com/ijvfs-iscteiul/ESProjectLastTry.git'
