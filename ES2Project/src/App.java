@@ -80,12 +80,12 @@ public class App {
 
 	public static void main(String[] args) {
 
-		App app = new App();
-
-		while (true) {
-			int valor = app.somar(1, 2);
-			System.out.println(valor);
-		}
+//		App app = new App();
+//
+//		while (true) {
+//			int valor = app.somar(1, 2);
+			System.out.println("farta disto tudoo....");
+		//}
 
 	}
 
