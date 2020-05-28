@@ -4,7 +4,7 @@ FROM openjdk:7
 
 ARG JAR_FILE=target/*.jar
 
-COPY target/ES2Project-0.0.1-SNAPSHOT.jar app.jar
+COPY ES2Project/target/ES2Project-0.0.1-SNAPSHOT.jar app.jar
 
 #RUN javac App.java
 
