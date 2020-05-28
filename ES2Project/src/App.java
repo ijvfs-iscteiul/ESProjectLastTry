@@ -52,8 +52,8 @@ public class App {
 	public double dividir (double valor1, double valor2) {
 		return valor1/valor2;
 	}
-	
-	
+
+
 	/**
 	 * Este metodo e usado para calcular o quadrado de um numero inteiro
 	 * @param valor1 primeiro parametro
@@ -62,8 +62,8 @@ public class App {
 	public int square (int valor1) {
 		return valor1*valor1;
 	}
-	
-	
+
+
 	/**
 	 * Esse metodo e usado para saber se a Irina e linda hehe
 	 * @param nome primeiro argumento
@@ -74,12 +74,14 @@ public class App {
 			return true;
 		return false;
 	}
-	
-	
-	
+
+
+
 	public static void main(String[] args) {
-		App app = new App();
-		int valor = app.somar(1, 2);
+		while(true) {
+			App app = new App();
+			int valor = app.somar(1, 2);
+		}
 	}
 
 
