@@ -6,7 +6,7 @@ ARG JAR_FILE=target/*.jar
 
 COPY ES2Project/target/ES2Project-0.0.1-SNAPSHOT.jar app.jar
 
-RUN javac App.java
+RUN javac src/App.java
 
 #CMD tail -f /dev/null
 ENTRYPOINT ["java","-jar","/app.jar"]
