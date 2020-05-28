@@ -17,6 +17,7 @@ public class App {
 	 */
 
 	public int somar (int valor1, int valor2) {
+		System.out.println(valor1 + " + " + valor2);
 		return valor1 + valor2;
 	}
 
