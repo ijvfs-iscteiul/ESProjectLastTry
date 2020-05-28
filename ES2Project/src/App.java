@@ -78,10 +78,11 @@ public class App {
 
 
 	public static void main(String[] args) {
-		while(true) {
+		
 			App app = new App();
 			int valor = app.somar(1, 2);
-		}
+			System.out.println(valor);
+		
 	}
 
 
